@@ -71,7 +71,7 @@ const App = () => {
 
           {/* 통합 네비게이션 */}
           <nav>
-            <ul className="flex items-center space-x-1 list-none">
+            <ul className="flex items-center list-none" style={{ gap: '3rem' }}>
               {/* 
                 아이콘 크기 조절 코드 추가: 
                 size 속성을 사용하여 아이콘의 크기를 조절할 수 있습니다. 
